@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\bin\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.deps.json
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\bin\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\bin\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.pdb
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.AssemblyInfo.cs
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\refint\BrightHRCheckOutKata.Infrastructure.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.pdb
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\ref\BrightHRCheckOutKata.Infrastructure.dll
