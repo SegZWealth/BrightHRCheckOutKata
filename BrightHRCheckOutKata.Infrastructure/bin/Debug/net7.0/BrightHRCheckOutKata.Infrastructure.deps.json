@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "BrightHRCheckOutKata.Infrastructure/1.0.0": {
+        "dependencies": {
+          "BrightHRCheckOutKata.Core": "1.0.0"
+        },
         "runtime": {
           "BrightHRCheckOutKata.Infrastructure.dll": {}
+        }
+      },
+      "BrightHRCheckOutKata.Core/1.0.0": {
+        "runtime": {
+          "BrightHRCheckOutKata.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BrightHRCheckOutKata.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrightHRCheckOutKata.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

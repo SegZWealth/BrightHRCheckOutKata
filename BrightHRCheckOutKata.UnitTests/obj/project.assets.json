@@ -1808,6 +1808,29 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "BrightHRCheckOutKata.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BrightHRCheckOutKata.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrightHRCheckOutKata.Core.dll": {}
+        }
+      },
+      "BrightHRCheckOutKata.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BrightHRCheckOutKata.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BrightHRCheckOutKata.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrightHRCheckOutKata.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -6103,10 +6126,22 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "BrightHRCheckOutKata.Core/1.0.0": {
+      "type": "project",
+      "path": "../BrightHRCheckOutKata.Core/BrightHRCheckOutKata.Core.csproj",
+      "msbuildProject": "../BrightHRCheckOutKata.Core/BrightHRCheckOutKata.Core.csproj"
+    },
+    "BrightHRCheckOutKata.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../BrightHRCheckOutKata.Infrastructure/BrightHRCheckOutKata.Infrastructure.csproj",
+      "msbuildProject": "../BrightHRCheckOutKata.Infrastructure/BrightHRCheckOutKata.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BrightHRCheckOutKata.Core >= 1.0.0",
+      "BrightHRCheckOutKata.Infrastructure >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
@@ -6146,7 +6181,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HP\\source\\repos\\BrightHRCheckOutKata.Core\\BrightHRCheckOutKata.Core\\BrightHRCheckOutKata.Core.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\BrightHRCheckOutKata.Core\\BrightHRCheckOutKata.Core\\BrightHRCheckOutKata.Core.csproj"
+            },
+            "C:\\Users\\HP\\source\\repos\\BrightHRCheckOutKata.Core\\BrightHRCheckOutKata.Infrastructure\\BrightHRCheckOutKata.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\BrightHRCheckOutKata.Core\\BrightHRCheckOutKata.Infrastructure\\BrightHRCheckOutKata.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

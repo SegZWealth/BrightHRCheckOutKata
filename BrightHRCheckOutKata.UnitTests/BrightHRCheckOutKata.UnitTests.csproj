@@ -22,4 +22,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Core.csproj" />
+    <ProjectReference Include="..\BrightHRCheckOutKata.Infrastructure\BrightHRCheckOutKata.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

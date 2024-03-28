@@ -10,3 +10,6 @@ C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastr
 C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\refint\BrightHRCheckOutKata.Infrastructure.dll
 C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.pdb
 C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\ref\BrightHRCheckOutKata.Infrastructure.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\bin\Debug\net7.0\BrightHRCheckOutKata.Core.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\bin\Debug\net7.0\BrightHRCheckOutKata.Core.pdb
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.Infrastructure\obj\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.csproj.CopyComplete

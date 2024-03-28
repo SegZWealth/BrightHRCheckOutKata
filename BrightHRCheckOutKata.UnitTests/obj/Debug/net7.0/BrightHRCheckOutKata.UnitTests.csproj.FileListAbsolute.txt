@@ -97,3 +97,8 @@ C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTest
 C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\obj\Debug\net7.0\BrightHRCheckOutKata.UnitTests.pdb
 C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\obj\Debug\net7.0\BrightHRCheckOutKata.UnitTests.genruntimeconfig.cache
 C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\obj\Debug\net7.0\ref\BrightHRCheckOutKata.UnitTests.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\bin\Debug\net7.0\BrightHRCheckOutKata.Core.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\bin\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.dll
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\bin\Debug\net7.0\BrightHRCheckOutKata.Core.pdb
+C:\Users\HP\source\repos\BrightHRCheckOutKata.Core\BrightHRCheckOutKata.UnitTests\bin\Debug\net7.0\BrightHRCheckOutKata.Infrastructure.pdb
