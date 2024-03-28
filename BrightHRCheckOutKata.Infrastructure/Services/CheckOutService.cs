@@ -11,10 +11,10 @@ namespace BrightHRCheckOutKata.Infrastructure.Services
 {
     public class CheckOutService : ICheckoutService
     {
-        private List<UnitPriceDTO> _unitPrices = new List<UnitPriceDTO>(); // List to store unit prices
-        private List<SpecialPriceDTO> _specialPrices = new List<SpecialPriceDTO>(); // List to store special prices
+        private readonly List<UnitPriceDTO> _unitPrices = new(); // List to store unit prices
+        private readonly List<SpecialPriceDTO> _specialPrices = new(); // List to store special prices
 
-        private List<char> _scannedItems = new List<char>(); // List to store scanned items
+        private List<char> _scannedItems = new(); // List to store scanned items
 
         public CheckOutService(List<UnitPriceDTO> unitPrices, List<SpecialPriceDTO> specialPrices) 
         {
@@ -23,12 +23,39 @@ namespace BrightHRCheckOutKata.Infrastructure.Services
         }
         public int GetTotalPrice()
         {
-            throw new NotImplementedException();
+            int totalPrice = 0;
+
+            foreach (var sku in _scannedItems.Distinct())
+            {
+                int itemCount = _scannedItems.Count(item => item == sku);
+                var unitPrice = _unitPrices.Find(up => up.Sku == sku).Price;
+                var specialPrice = _specialPrices.Find(sp => sp.Sku == sku);
+
+                if (specialPrice != null && itemCount >= specialPrice.Quantity)
+                {
+                    int specialPriceQuantity = specialPrice.Quantity;
+                    int specialPriceValue = specialPrice.Price;
+                    int regularPrice = unitPrice * (itemCount % specialPriceQuantity);
+                    int specialPriceCount = itemCount / specialPriceQuantity;
+                    totalPrice += specialPriceCount * specialPriceValue + regularPrice;
+                }
+                else
+                {
+                    totalPrice += unitPrice * itemCount;
+                }
+            }
+
+            return totalPrice;
         }
 
         public void Scan(string item)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrEmpty(item) || item.Length != 1 || !_unitPrices.Any(up => up.Sku == item[0]))
+            {
+                throw new ArgumentException("Invalid item.");
+            }
+
+            _scannedItems.Add(item[0]);
         }
     }
 }
