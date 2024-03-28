@@ -1,4 +1,3 @@
-using BrightHRCheckOutKata.Core.Domain;
 using BrightHRCheckOutKata.Core.DTO;
 using BrightHRCheckOutKata.Infrastructure.Services;
 
